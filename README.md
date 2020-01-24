@@ -15,7 +15,7 @@ console.log(result1) // IT
 console.log(result2) // US
 console.log(result3) // ES
 
-const result4 = getFlagsInText('This text has 🇺🇸 emoji flags 🇮🇹');
+const result4 = getFlagsInText('This text has 🇺🇸 emoji flags 🇮🇹')
 console.log(result4) // ['🇺🇸', '🇮🇹']
 ```
 
