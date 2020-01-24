@@ -1,5 +1,5 @@
 const assert = require('assert')
-const { flagToCountry } = require('../index')
+const { flagToCountry, getFlagsInText } = require('../index')
 
 describe('Tests for emoji flags to country code', () => {
   it('should return undefined for empty inputs', () => {
@@ -16,5 +16,17 @@ describe('Tests for emoji flags to country code', () => {
     assert.strictEqual(flagToCountry('🇮🇹'), 'IT')
     assert.strictEqual(flagToCountry('🇺🇸'), 'US')
     assert.strictEqual(flagToCountry('🇪🇸'), 'ES')
+  })
+  it('should return an empty array for an invalid text', () => {
+    assert.deepEqual(getFlagsInText(''), [])
+    assert.deepEqual(getFlagsInText(null), [])
+    assert.deepEqual(getFlagsInText(undefined), [])
+  })
+  it('should return an empty array for a text with no emoji flags', () => {
+    assert.deepEqual(getFlagsInText('This text has no emoji flags 😀'), [])
+  })
+  it('should return an array of emoji flags for a text with emoji flags', () => {
+    assert.deepEqual(getFlagsInText('Italians do it better 🇮🇹'), ['🇮🇹'])
+    assert.deepEqual(getFlagsInText('🇮🇹 some flag 🇺🇸 here and there🇪🇸'), ['🇮🇹', '🇺🇸', '🇪🇸'])
   })
 })

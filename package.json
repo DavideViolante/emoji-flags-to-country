@@ -1,6 +1,6 @@
 {
   "name": "emoji-flags-to-country",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Convert emoji country flags to country code.",
   "main": "index.js",
   "scripts": {
@@ -18,7 +18,12 @@
     "flags",
     "char",
     "convert",
-    "iso"
+    "iso",
+    "extract",
+    "find",
+    "get",
+    "text",
+    "string"
   ],
   "author": "Davide Violante",
   "license": "MIT",
