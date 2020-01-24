@@ -6,16 +6,17 @@ Convert emoji country flags to country code ISO 3166.
 
 ### Example
 ```js
-const { flagToCountry } = require('emoji-flags-to-country')
+const { flagToCountry, getFlagsInText } = require('emoji-flags-to-country')
 
-function main() {
-  const result1 = flagToCountry('🇮🇹')
-  const result2 = flagToCountry('🇺🇸')
-  const result3 = flagToCountry('🇪🇸')
-  console.log(result1) // IT
-  console.log(result2) // US
-  console.log(result3) // ES
-}
+const result1 = flagToCountry('🇮🇹')
+const result2 = flagToCountry('🇺🇸')
+const result3 = flagToCountry('🇪🇸')
+console.log(result1) // IT
+console.log(result2) // US
+console.log(result3) // ES
+
+const result4 = getFlagsInText('This text has 🇺🇸 emoji flags 🇮🇹');
+console.log(result4) // ['🇺🇸', '🇮🇹']
 ```
 
 ### Run tests
