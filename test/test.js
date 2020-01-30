@@ -16,6 +16,7 @@ describe('Tests for emoji flags to country code', () => {
     assert.strictEqual(flagToCountry('🇮🇹'), 'IT')
     assert.strictEqual(flagToCountry('🇺🇸'), 'US')
     assert.strictEqual(flagToCountry('🇪🇸'), 'ES')
+    assert.strictEqual(flagToCountry('🇪🇺'), 'EU')
   })
   it('should return an empty array for an invalid text', () => {
     assert.deepEqual(getFlagsInText(''), [])
@@ -27,6 +28,6 @@ describe('Tests for emoji flags to country code', () => {
   })
   it('should return an array of emoji flags for a text with emoji flags', () => {
     assert.deepEqual(getFlagsInText('Italians do it better 🇮🇹'), ['🇮🇹'])
-    assert.deepEqual(getFlagsInText('🇮🇹 some flag 🇺🇸 here and there🇪🇸'), ['🇮🇹', '🇺🇸', '🇪🇸'])
+    assert.deepEqual(getFlagsInText('🇮🇹 some flag 🇺🇸 here and there🇪🇸 and also 🇪🇺'), ['🇮🇹', '🇺🇸', '🇪🇸', '🇪🇺'])
   })
 })
