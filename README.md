@@ -1,4 +1,4 @@
-# Emoji country flags to country code [![Donate](https://img.shields.io/badge/paypal-donate-179BD7.svg)](https://www.paypal.me/dviolante)
+# Emoji country flags to country code [![](https://github.com/davideviolante/emoji-flags-to-country/workflows/Node.js%20CI/badge.svg)](https://github.com/DavideViolante/emoji-flags-to-country/actions?query=workflow%3A"Node.js+CI") [![Donate](https://img.shields.io/badge/paypal-donate-179BD7.svg)](https://www.paypal.me/dviolante)
 Convert emoji country flags to country code ISO 3166.
 
 ### Install
