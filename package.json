@@ -33,7 +33,7 @@
   "homepage": "https://github.com/DavideViolante/emoji-flags-to-country#readme",
   "devDependencies": {
     "eslint": "^7.2.0",
-    "eslint-config-standard": "^14.1.1",
+    "eslint-config-standard": "^16.0.2",
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.1.1",
