@@ -1,5 +1,5 @@
 # Emoji country flags to country code
-[![](https://github.com/davideviolante/emoji-flags-to-country/workflows/Node.js%20CI/badge.svg)](https://github.com/DavideViolante/emoji-flags-to-country/actions?query=workflow%3A"Node.js+CI") [![Maintainability](https://api.codeclimate.com/v1/badges/958c5ceec39aadccb32a/maintainability)](https://codeclimate.com/github/DavideViolante/emoji-flags-to-country/maintainability) [![Donate](https://img.shields.io/badge/paypal-donate-179BD7.svg)](https://www.paypal.me/dviolante)
+[![](https://github.com/davideviolante/emoji-flags-to-country/workflows/Node.js%20CI/badge.svg)](https://github.com/DavideViolante/emoji-flags-to-country/actions?query=workflow%3A"Node.js+CI") [![Coverage Status](https://coveralls.io/repos/github/DavideViolante/emoji-flags-to-country/badge.svg?branch=master)](https://coveralls.io/github/DavideViolante/emoji-flags-to-country?branch=master) [![Maintainability](https://api.codeclimate.com/v1/badges/958c5ceec39aadccb32a/maintainability)](https://codeclimate.com/github/DavideViolante/emoji-flags-to-country/maintainability) [![Donate](https://img.shields.io/badge/paypal-donate-179BD7.svg)](https://www.paypal.me/dviolante)
 
 Convert emoji country flags to country code ISO 3166.
 
