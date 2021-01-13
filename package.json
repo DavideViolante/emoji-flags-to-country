@@ -7,7 +7,7 @@
     "dev": "node index.js",
     "lint": "eslint ./",
     "test": "nyc mocha",
-    "coverage": "nyc --reporter=lcov mocha"
+    "coverage": "nyc --reporter=lcov --reporter=text mocha"
   },
   "repository": {
     "type": "git",
