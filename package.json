@@ -1,6 +1,6 @@
 {
   "name": "emoji-flags-to-country",
-  "version": "2.2.2",
+  "version": "2.2.3",
   "description": "Convert emoji country flags to country code.",
   "main": "index.js",
   "scripts": {
