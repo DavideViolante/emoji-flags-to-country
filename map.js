@@ -249,6 +249,6 @@ const flagToCountryMap = {
   '🇿🇦': 'ZA',
   '🇿🇲': 'ZM',
   '🇿🇼': 'ZW',
-}
+};
 
-module.exports = flagToCountryMap
+module.exports = flagToCountryMap;
